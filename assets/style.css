@@ -147,3 +147,16 @@ section {
     color: var(--tertiary-color);
     border-radius: 15px;
 }
+
+/* media queries */
+@media screen and (max-width: 980px) {
+    
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 575px) {
+    
+}

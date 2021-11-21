@@ -102,7 +102,7 @@ section {
     border: 5px solid var(--primary-color);
 }
 
-.highlight-work h3 {
+.highlight-work h3 a {
     background-color: var(--tertiary-color);
     border: 3px solid var(--primary-color);
     display: flex;
@@ -111,12 +111,15 @@ section {
     margin: 0 0 20px 20px;
     justify-content: center;
     align-items: center;
-}
-
-.highlight-work h3 a {
     text-decoration: none;
     color: var(--primary-color);
 }
+
+.highlight-work h3 a:hover {
+    background-color: var(--primary-color);
+    color: var(--tertiary-color);
+}
+
 
 .contact-me ul {
     list-style: none;
@@ -130,6 +133,12 @@ section {
 .contact-me ul li a {
     text-decoration: none;
     font-size: 20px;
-    padding: 0 30px;
+    padding: 10px 30px;
     color: var(--primary-color);
+}
+
+.contact-me ul li a:hover {
+    background: var(--primary-color);
+    color: var(--tertiary-color);
+    border-radius: 15px;
 }

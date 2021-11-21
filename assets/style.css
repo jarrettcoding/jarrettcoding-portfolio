@@ -5,7 +5,7 @@
 }
 
 :root {
-    --primary-color: #5452F5; 
+    --primary-color: #0650D4; 
     --secondary-color: #9D9BF7; 
     --tertiary-color: #807F7F;
 
@@ -17,14 +17,16 @@ body {
 }
 
 header {
-    background-color: black; 
+    background-color: var(--tertiary-color); 
     color: var(--primary-color);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 30px 35px;
     position: sticky;
+    top: 0;
     z-index: 1000;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
 }
 
 header .main-title {
@@ -54,6 +56,13 @@ header nav ul li a {
     color: var(--primary-color);
 }
 
+header nav ul li a:hover {
+    background: var(--primary-color);
+    color: var(--tertiary-color);
+    text-shadow: none;
+    border-radius: 15px;
+}
+
 section {
     display: flex;
     flex-wrap: wrap;
@@ -69,6 +78,7 @@ section {
     width: 25%;
     height: 40%;
     margin: 20px 20px;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
 }
 
 .about-me p {
@@ -84,7 +94,8 @@ section {
     background-image: url(../assets/images/hero-bg.jpg);
     background-size: cover;
     background-position: right;
-    justify-content: space-around;
+    justify-content: left;
+    align-items: flex-end;
     width: 60%;
     height: 500px;
     margin: 15px auto;
@@ -92,17 +103,19 @@ section {
 }
 
 .highlight-work h3 {
-    color: var(--primary-color);
     background-color: var(--tertiary-color);
     border: 3px solid var(--primary-color);
     display: flex;
     padding: 5px 10px;
     height: 50px;
-    position: relative;
-    top: 425px;
-    left: -315px;
+    margin: 0 0 20px 20px;
     justify-content: center;
     align-items: center;
+}
+
+.highlight-work h3 a {
+    text-decoration: none;
+    color: var(--primary-color);
 }
 
 .contact-me ul {

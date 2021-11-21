@@ -17,12 +17,14 @@ body {
 }
 
 header {
-    background-color:var(--secondary-color);
+    background-color:var(--tertiary-color);
     color: var(--primary-color);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 30px 35px;
+    position: sticky;
+    z-index: 1000;
 }
 
 header .main-title {
@@ -49,4 +51,37 @@ header nav ul {
 header nav ul li a {
     padding: 10px 20px;
     font-size: 20px;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-title {
+    color: var(--primary-color);
+    font-size: 45px;
+    padding: 10px 20px;
+    border-right: 3px solid var(--primary-color);
+    display: flex;
+    flex-wrap: wrap;
+    width: 25%;
+    height: 40%;
+    margin: 20px 20px;
+}
+
+.about-me p {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    padding: 15px 30px;
+}
+
+.contact-me ul {
+    list-style: none;
+
+}
+
+.contact-me ul li a {
+    text-decoration: none;
 }

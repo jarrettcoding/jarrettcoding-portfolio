@@ -51,6 +51,7 @@ header nav ul {
 header nav ul li a {
     padding: 10px 20px;
     font-size: 20px;
+    color: var(--primary-color);
 }
 
 section {
@@ -77,11 +78,20 @@ section {
     padding: 15px 30px;
 }
 
+
+
 .contact-me ul {
     list-style: none;
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
 }
 
 .contact-me ul li a {
     text-decoration: none;
+    font-size: 20px;
+    padding: 0 30px;
+    color: var(--primary-color);
 }

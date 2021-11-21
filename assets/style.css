@@ -16,6 +16,7 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
+/* header */
 header {
     background-color: var(--tertiary-color); 
     color: var(--primary-color);
@@ -63,6 +64,7 @@ header nav ul li a:hover {
     border-radius: 15px;
 }
 
+/* sections and titles */
 section {
     display: flex;
     flex-wrap: wrap;
@@ -81,13 +83,16 @@ section {
     text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
 }
 
+/* about me */
 .about-me p {
     display: flex;
     flex-wrap: wrap;
     width: 70%;
     padding: 15px 30px;
+    margin-bottom: 30px;
 }
 
+/* highlight work */
 .highlight-work {
     display: flex;
     flex-wrap: wrap;
@@ -98,7 +103,7 @@ section {
     align-items: flex-end;
     width: 60%;
     height: 500px;
-    margin: 15px auto;
+    margin: 30px auto;
     border: 5px solid var(--primary-color);
 }
 
@@ -120,7 +125,7 @@ section {
     color: var(--tertiary-color);
 }
 
-
+/* contact me */
 .contact-me ul {
     list-style: none;
     display: flex;

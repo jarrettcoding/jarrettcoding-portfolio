@@ -154,9 +154,24 @@ section {
 }
 
 @media screen and (max-width: 768px) {
-    
+    .section-title {
+        border-right: none;
+        border-bottom: 5px solid var(--primary-color);
+        width: 100%;
+        justify-content: center;
+    }
+
+    .about-me p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .contact-me ul {
+        width: 100%;
+        margin-bottom: 30px;
+    }
 }
 
 @media screen and (max-width: 575px) {
-    
+
 }

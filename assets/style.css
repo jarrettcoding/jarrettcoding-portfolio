@@ -140,6 +140,7 @@ section {
     font-size: 20px;
     padding: 10px 30px;
     color: var(--primary-color);
+    margin: 0 20px;
 }
 
 .contact-me ul li a:hover {
@@ -150,6 +151,15 @@ section {
 
 /* media queries */
 @media screen and (max-width: 980px) {
+    header {
+        position: relative;
+        padding-bottom: 0;
+        justify-content: center;
+    }
+
+    header nav ul {
+        font-size: 30px;
+    }
     
 }
 
@@ -173,5 +183,18 @@ section {
 }
 
 @media screen and (max-width: 575px) {
+    header .main-title {
+        width: 100%;
+        text-align: center;
+    }
 
+    header nav ul {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .contact-me ul li a {
+        margin: 20px 0;
+    }
 }

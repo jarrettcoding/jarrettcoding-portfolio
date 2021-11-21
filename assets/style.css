@@ -64,6 +64,19 @@ header nav ul li a:hover {
     border-radius: 15px;
 }
 
+/* hero */
+.hero {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.hero img {
+    width: 20%;
+    border-radius: 15px;
+    margin: 50px;
+}
+
 /* sections and titles */
 section {
     display: flex;
@@ -138,11 +151,6 @@ section {
     color: var(--primary-color);
 }
 
-/* .highlight-work h3 a:hover {
-    background-color: var(--primary-color);
-    color: var(--tertiary-color);
-}  */
-
 /* contact me */
 .contact-me ul {
     list-style: none;
@@ -182,6 +190,10 @@ section {
 }
 
 @media screen and (max-width: 768px) {
+    .hero img {
+        flex: 0 50%;
+    }
+    
     .section-title {
         border-right: none;
         border-bottom: 5px solid var(--primary-color);

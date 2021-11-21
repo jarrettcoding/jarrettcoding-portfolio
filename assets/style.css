@@ -78,6 +78,19 @@ section {
     padding: 15px 30px;
 }
 
+.highlight-work {
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(../assets/images/hero-bg.jpg);
+    background-size: cover;
+    background-position: right;
+    justify-content: space-around;
+    width: 60%;
+    height: 500px;
+    margin: 15px auto;
+    border: 5px solid var(--primary-color);
+}
+
 
 
 .contact-me ul {

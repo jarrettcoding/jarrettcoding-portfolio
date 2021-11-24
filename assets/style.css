@@ -13,7 +13,7 @@
 }
 
 body {
-    color: var(--tertiary-color);
+    color: var(--header-color);
     font-family: Helvetica, Arial, sans-serif;
     background-color: rgb(204, 204, 203);
 }
@@ -104,6 +104,7 @@ section {
     flex-wrap: wrap;
     width: 70%;
     padding: 15px 30px;
+    margin-top: 15px;
     margin-bottom: 30px;
     font-size: 20px;
 }

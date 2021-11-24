@@ -32,6 +32,15 @@ header {
     /* text-shadow: 0 0 3px rgba(0, 0, 0, 0.5); */
 }
 
+header::after {
+    content: "";
+    height: 15px;
+    width: 100vw;
+    background-color: var(--primary-color);
+    margin-top: 5px;
+}
+
+
 header .main-title {
     font-size: 40px;
     margin: 0;
